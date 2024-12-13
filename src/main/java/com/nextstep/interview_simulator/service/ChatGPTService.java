@@ -15,7 +15,7 @@ import com.google.gson.JsonParser;
 public class ChatGPTService {
 
     private static final String API_URL = "https://api.openai.com/v1/completions";
-    private static final String API_KEY = "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"; 
+    private static final String API_KEY = "비공개처리, 차후 환경변수로 떼어놓을예정입니다"; 
 
     private final RestTemplate restTemplate;
 
