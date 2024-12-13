@@ -15,7 +15,8 @@ import com.google.gson.JsonParser;
 public class ChatGPTService {
 
     private static final String API_URL = "https://api.openai.com/v1/completions";
-    // api키는 이후 환경변수로 빼서 .gitignore로 처리예정입니다.
+    private static final String API_KEY = "비공개처리, 차후 환경변수로 떼어놓을예정입니다"; 
+
 
     private final RestTemplate restTemplate;
 
